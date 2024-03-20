@@ -1,5 +1,5 @@
 
-package values;
+package com.proyectoali.restaurantapp.values;
 
 
 public enum UserTypes {

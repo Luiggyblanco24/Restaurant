@@ -1,7 +1,7 @@
 
-package people;
+package com.proyectoali.restaurantapp.people;
 
-import values.UserTypes;
+import com.proyectoali.restaurantapp.values.UserTypes;
 
 
 public class User {
@@ -20,7 +20,10 @@ public class User {
     }
     public void sell(){
         if(this.type != UserTypes.ADMINISTRATIVE){
-            System.out.println("you are NOT AUTHORIZED to sell");
+            System.out.println("you are NOT AUTHORIZED to sell" );
+        }
+        else{
+            System.out.println("You are AUTHORIZED to sell");
         }
     }
 }
