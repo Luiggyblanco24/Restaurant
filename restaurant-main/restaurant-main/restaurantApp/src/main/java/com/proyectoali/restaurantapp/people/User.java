@@ -1,4 +1,3 @@
-
 package com.proyectoali.restaurantapp.people;
 
 import com.proyectoali.restaurantapp.values.UserTypes;
